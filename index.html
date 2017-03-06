@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Convertidor</title>
+</head>
+<body align="center">
+  <h1>Convertidor en Grados y Celsius</h1>
+  <form action="">
+    <table border="3" align="center">
+      <tr>
+        <td>
+          <label for="farenheit">Farenheit</label>
+        </td>
+        <td>
+          <input id="farenheit" type="number">
+        </td>
+        <td>
+          <button type="button" onclick="convACelsius(); return false;">Convert to Celsius</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="celsius">Celsius</label>
+        </td>
+        <td>
+          <input id="celsius" type="number">
+        </td>
+        <td>
+          <button type="button" onclick="convAFarenheit(); return false;">Convert to Farenheit</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+<script src="main.js"></script>
+</body>
+</html>
